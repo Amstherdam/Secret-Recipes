@@ -1,0 +1,63 @@
+header.bgImage { 
+    background-image: url(../../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+@media  screen and (min-width: 1281px) { 
+    header.bgImage{
+        padding-top: 22rem;
+        padding-bottom: 11rem;
+    }
+ 
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    header.bgImage{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    #welcomeText { 
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header.bgImage { 
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    #welcomeText { 
+        font-size: 4rem;
+    }
+}
+
+@media screen and  (max-width: 765.5px) {
+    header.bgImage { 
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    #welcomeText { 
+        font-size: 3rem;
+        align-items: flex-start;
+    }
+    .welcome { 
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

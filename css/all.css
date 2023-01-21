@@ -1,0 +1,174 @@
+/* ? Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+/* ? Montserrat Alternates */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/*? Bootstrap Icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+/*?  Core bootstrap css  */
+@import url("bootstrap/bootstrap.min.css");
+/*? My custom css */
+@import url('custom/extra.css');
+
+:root { 
+    --background-color: #E1F0F5;
+    --color-color: black;
+    --main-text: 'Montserrat Alternates', sans-serif;
+    --second-text: 'Dancing Script', cursive;
+}
+
+body { 
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--color-color);
+    background-color: var(--background-color);
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+#mainNavbar { 
+    background-image: linear-gradient(to top, #e1f0f5, #d6eff7, #cbedf8, #bfecfa, #b2eafb);
+    font-family: var(--main-text);
+    color: var(--color--color);
+    padding: 10px 20px;
+}
+
+#logo{ 
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: -2px 1px 2px rgba(0,0,0,0.4);
+    font-family: var(--second-text);
+}
+
+#navThings > li > a {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-shadow: -1.3px 1px 2px rgba(0,0,0,0.3);
+    color: var(--color--color);
+    border-bottom: 2px solid var(--background-color);
+}
+
+#navThings > li > a:hover { 
+    border-bottom: 2px solid black;
+    border-radius: 8px;
+}
+
+/* ? welcome image  */
+.welcomeText { 
+    font-size: 5rem;
+    text-align: center;
+    color: var(--color--color);
+    font-family: 'Dancing Script', cursive;
+}
+
+.welcome { 
+    background-color: rgb(235, 243, 246, 0.5);
+    text-shadow: -3px 1px 2px rgba(0,0,0,0.4);
+    border: 3px solid rgb(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px 80px;
+    -webkit-box-shadow: -9px 4px 77px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 4px 77px 8px rgba(0,0,0,0.75);
+    box-shadow: -9px 4px 77px 8px rgba(0,0,0,0.75);
+}
+
+/* ? container shadow */
+
+.conShadow { 
+-webkit-box-shadow: 0px 0px 49px 5px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 49px 5px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 49px 5px rgba(0,0,0,0.2);
+}
+
+/* ? */
+
+/* ? background color */ 
+
+    .bg-main-color { 
+        background-color: #BDECFA;
+    }
+
+/* ? */
+
+/* ? FirstText */
+
+.firstText { 
+    font-family: var(--main-text);
+    font-weight: 500;
+}
+
+/* ?  */
+
+/* ? SecondText  with shadow */
+
+.secondText { 
+    font-family: var(--second-text);
+    text-shadow: -2px 1px 2px rgba(0,0,0,0.4);
+}
+
+.secondText2 {
+    font-family: var(--second-text);
+    text-shadow: -1px 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+/* ? */
+
+/* ? Text on pictures */
+
+    .imgText {
+        left: 0;
+        top: 0;
+        background-color: rgb(189, 236, 250, 0.3);
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        
+    }
+
+    .imgText:hover { 
+        opacity: 1;
+    }
+
+    .marginX { 
+       margin: 0 11%;
+       text-align: center ;
+       
+       padding: 20% 5% 0 5%;
+    }
+  
+/* ? */
+
+/* ? Footer */
+   
+#foot { 
+    height: 300px; 
+    background-color: #001220; 
+    color: #E1F0F5;
+} 
+
+.circle {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: solid 2px #E1F0F5;
+  }
+  .c1 {
+    top: -500px;
+    left: -500px;
+  }
+  .c2 {
+    bottom: -600px;
+    right: -200px;
+  }
+  .c3 {
+    bottom: -400px;
+    right: -500px;
+  }
+
+
+/* ? */
+
